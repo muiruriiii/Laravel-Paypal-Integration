@@ -64,7 +64,7 @@ class PaymentController extends Controller
 
                 $payment->save();
 
-                return "Payment is Successfull. Your Transaction Id is : " . $arr['id'];
+                return "Payment is Successful. Your Transaction Id is : " . $arr['id'];
                 return redirect('index');
             }
             else{
